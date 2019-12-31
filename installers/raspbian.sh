@@ -7,7 +7,7 @@
 # Command-line options: -y, --yes, --assume-yes
 # Assume "yes" as answer to all prompts and run non-interactively
 
-UPDATE_URL="https://raw.githubusercontent.com/billz/raspap-webgui/master/"
+UPDATE_URL="https://raw.githubusercontent.com/varrano/raspap-webgui/master/"
 wget -q ${UPDATE_URL}/installers/common.sh -O /tmp/raspapcommon.sh
 source /tmp/raspapcommon.sh && rm -f /tmp/raspapcommon.sh
 
